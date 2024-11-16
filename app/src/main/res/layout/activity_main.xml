@@ -30,9 +30,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:layout_marginEnd="16dp"
             android:layout_marginTop="8dp"
-            android:entries="@array/format_options" />
+            android:layout_marginEnd="16dp"
+            android:entries="@array/format_options"
+            android:minHeight="48dp" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <!-- RecyclerView to display items -->
